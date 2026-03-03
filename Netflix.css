@@ -1,0 +1,252 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.main {
+  height: 725px;
+  width: 100%;
+  color: white;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/0b0dad79-ad4d-42b7-b779-8518da389976/web/IN-en-20250908-TRIFECTA-perspective_0647b106-80e1-4d25-9649-63099752b49a_large.jpg);
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  position: relative;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 950px;
+  padding: 30px 0;
+  position: relative;
+  z-index: 3;
+}
+
+.blur-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  /* left: 0;  */
+  background-color: rgba(0, 0, 0, 0.66);
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+}
+
+svg {
+  fill: red;
+  height: 100px;
+  position: absolute;
+}
+
+.logo {
+  height: 55px;
+  padding: 0 50px;
+}
+
+#language {
+  border: 1px solid white;
+  padding: 8px 20px;
+  background-color: rgba(240, 248, 255, 0);
+  color: white;
+  border-radius: 5px;
+}
+#sign {
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.content {
+  justify-items: center;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.content h1 {
+  font-size: 60px;
+  padding: 25px;
+}
+
+.content h3 {
+  font-size: 35px;
+  padding: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  padding: 20px;
+}
+
+#email {
+  background-color: rgba(240, 248, 255, 0);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#btn {
+  background-color: red;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main2 {
+  width: 1300px;
+  margin: auto;
+  overflow: hidden;
+  color: white;
+  text-transform: capitalize;
+}
+
+.movies {
+  height: 330px;
+  width: auto;
+  display: grid;
+  /* grid-template-columns: auto auto auto auto auto; */
+  overflow-y: hidden;
+  position: relative;
+  min-width: 200px;
+}
+
+.movie {
+  position: relative;
+}
+
+.a3 {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.a3 p {
+  font-size: 120px;
+  position: absolute;
+  left: -10px;
+  color: rgb(255, 255, 255);
+  margin-top: 180px;
+  /* border: 2px solid white; */
+}
+.a3 img {
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.info {
+  display: grid;
+}
+
+.p1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px 0;
+}
+
+.p1 h1 {
+  font-size: 29px;
+  padding: 10px 0;
+}
+
+.p1 i {
+  font-size: 40px;
+  /* padding: 50px 0; */
+  float: right;
+  margin-top: 30px;
+}
+
+.a5 {
+  background-image: linear-gradient(blue -60%, red 147%);
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.a6 {
+  background-image: linear-gradient(blue -60%, red 147%);
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.a7 {
+  background-image: linear-gradient(blue -60%, red 147%);
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.a8 {
+  background-image: linear-gradient(blue -60%, red 147%);
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.a10 h1 {
+  background-color: rgb(72, 70, 70);
+  margin: 10px;
+  padding: 20px 15px;
+}
+
+.a10 i {
+  float: right;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin-top: 100px;
+  padding: 30px 0;
+}
+
+#mail {
+  background-color: rgba(240, 248, 255, 0);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 650px;
+}
+
+.inner-footer {
+  color: rgb(176, 173, 173);
+  margin-top: 100px;
+}
+.p3 {
+  display: flex;
+  gap: 250px;
+}
+
+.p3 p {
+  padding: 7px;
+}
+.p2 p {
+  padding: 7px;
+}
+
+.buttons {
+  margin-top: 100px;
+  color: rgb(176, 173, 173);
+}
+
+.buttons p {
+  padding: 50px 0;
+}
